@@ -22,21 +22,21 @@ Core scripts in the CN lab pipeline are in `/data00/tools/cnlab_pipeline`.
 
 ```
 ├── data
-│	├── behavioral
-│	├── bids_data
-│	│	└── derivatives
-│	│		├── DWI
-│	│		├── FC
-│	│		├── MVPA
-│	│		├── PE
-│	│		├── PPI
-│	│		├── ROI
-│	│		├── fmriprep
-│	│		├── freesurfer
-│	│		├── nipype
-│	│		├── rsfMRI
-│	│		└── sMRI
-│	└── task_logs
+│   ├── behavioral
+│   ├── bids_data
+│   │   └── derivatives
+│   │       ├── DWI
+│   │       ├── FC
+│   │       ├── MVPA
+│   │       ├── PE
+│   │       ├── PPI
+│   │       ├── ROI
+│   │       ├── fmriprep
+│   │       ├── freesurfer
+│   │       ├── nipype
+│   │       ├── rsfMRI
+│   │       └── sMRI
+│   └── task_logs
 └── scripts
     ├── BIDS
     ├── DWI
