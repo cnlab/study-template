@@ -1,0 +1,1 @@
+This directory contains scripts related to resting state fMRI analyses.

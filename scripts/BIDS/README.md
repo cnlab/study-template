@@ -1,0 +1,1 @@
+This directory contains scripts to convert the DICOMS to BIDS-formatted niftis in bids_data.

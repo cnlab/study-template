@@ -1,0 +1,1 @@
+This directory contains scripts related to pattern expression analyses.
