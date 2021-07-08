@@ -9,12 +9,14 @@ cd /data00/projects
 git clone https://github.com/cnlab/study-template.git
 ```
 
+
 Once cloned, rename the `study_template` folder for your project and remove git tracking.
 
 ```
 cd /data00/projects/[project name]
 rm -rf .git
 ```
+
 
 Core scripts in the CN lab pipeline are in `/data00/tools/cnlab_pipeline`. 
 
