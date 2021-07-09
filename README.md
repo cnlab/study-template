@@ -39,6 +39,7 @@ Core scripts in the CN lab pipeline are in `/data00/tools/cnlab_pipeline`.
 │	└── task_logs
 └── scripts
     ├── BIDS
+    ├── DICOMS
     ├── DWI
     ├── FC
     ├── FMRIPREP

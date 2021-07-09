@@ -1,0 +1,1 @@
+This directory contains scripts to move the DICOMS to the server using flywheel.
