@@ -4,7 +4,7 @@ File structure for creating a new neuroimaging study.
 
 Start by cloning this repo to the server in the projects directory
 
-````
+```
 cd /data00/projects
 git clone https://github.com/cnlab/study-template.git
 ```
@@ -22,21 +22,21 @@ Core scripts in the CN lab pipeline are in `/data00/tools/cnlab_pipeline`.
 
 ```
 ├── data
-│	├── behavioral
-│	├── bids_data
-│	│	└── derivatives
-│	│		├── DWI
-│	│		├── FC
-│	│		├── MVPA
-│	│		├── PE
-│	│		├── PPI
-│	│		├── ROI
-│	│		├── fmriprep
-│	│		├── freesurfer
-│	│		├── nipype
-│	│		├── rsfMRI
-│	│		└── sMRI
-│	└── task_logs
+│   ├── behavioral
+│   ├── bids_data
+│   │   └── derivatives
+│   │       ├── DWI
+│   │       ├── FC
+│   │       ├── MVPA
+│   │       ├── PE
+│   │       ├── PPI
+│   │       ├── ROI
+│   │       ├── fmriprep
+│   │       ├── freesurfer
+│   │       ├── nipype
+│   │       ├── rsfMRI
+│   │       └── sMRI
+│   └── task_logs
 └── scripts
     ├── BIDS
     ├── DICOMS
