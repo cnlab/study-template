@@ -1,0 +1,44 @@
+{
+    "Description": [
+        "MURI default pipeline",
+        "6mm FWHM smoothing",
+        "No global scaling",
+        "FAST correlation",
+        "Euclidean translation, rotation (+ derivatives) and motion artifact (trash) regressor"
+    ],
+    
+    "Environment": {
+        "job_path": "models",
+        "spm_path": "/data00/tools/spm12mega",
+        "fsl_path": "/data00/tools/fsl"
+    },
+       
+    "IsotropicSmooth": {
+        "fwhm": 6
+    },
+    
+    "SpecifySPMModel": {
+        "input_units": "secs",
+        "output_units": "secs",
+        "high_pass_filter_cutoff": 128,
+        "regressor_names": [
+            "trans", "rot", "deriv.trans", "deriv.rot", "trash"
+        ]
+    },
+
+    "Level1Design": {
+        "bases": { "hrf": { "derivs": [0,0] } },
+        "timing_units": "secs",
+        "global_intensity_normalization": "none",
+        "model_serial_correlations": "FAST"
+    },
+    
+    "EstimateModel": {
+        "estimation_method": { "Classical": 1 },
+        "write_residuals": false
+    },
+
+    "EstimateContrast": {
+        "basic_contrasts": true
+    }
+}

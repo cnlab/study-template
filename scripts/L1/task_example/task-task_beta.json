@@ -1,0 +1,26 @@
+{   
+    "Description": "example task beta-series",
+    
+    "Environment": {
+        "data_path": "/data00/projects/study_template",
+        "output_path": "/data00/projects/study_template/data/bids_data/derivatives/nipype",
+        "working_path": "/data00/projects/study_template/data/bids_data/working/nipype"
+    },
+    
+    "Info": {
+        "task": "task_example",
+        "model": "beta-series",
+        "sub_container": "data/bids_data/derivatives/fmriprep",
+        "run": [ 1, 2, 3, 4 ],
+        "tr": 1.0,
+        "exclude": {
+            "sub": [ "test001" ]
+        }
+    },
+    
+    "SpecifySPMModel": {
+        "functional_runs": "data/bids_data/derivatives/fmriprep/sub-{sub}/func/sub-{sub}_task-{task}_run-0{run}_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz",
+        "event_files": "data/bids_data/derivatives/fmriprep/sub-{sub}/func/sub-{sub}_task-{task}_run-0{run}_events.tsv",
+        "regressors": "data/bids_data/derivatives/auto-motion-fmriprep/sub-{sub}/sub-{sub}_task-{task}_run-{run}_desc-motion_regressors.tsv"
+    }
+}

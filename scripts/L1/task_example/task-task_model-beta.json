@@ -1,0 +1,48 @@
+{
+  "Template": [
+    "/data00/tools/study-template/scripts/L1/template-study_beta.json",
+    "/data00/tools/study-template/scripts/L1/task_example/task-task_condition.json"
+  ],
+    
+  "Info": {
+    "model": "beta"
+  },
+    
+  "SpecifySPMModel": {
+    "event_options": {
+      "map_event": {
+        "event": [
+            "pic_nonalc_react",
+            "pic_alc_react",
+            "pic_alc_mindful",
+            "pic_alc_friend3",
+            "pic_alc_friend4",
+            "pic_alc_friend1",
+            "pic_alc_friend2"
+        ],
+        "cue": [
+            "cue_nonalc_react",
+            "cue_alc_react",
+            "cue_alc_mindful",
+            "cue_alc_friend1",
+            "cue_alc_friend2",
+            "cue_alc_friend3",
+            "cue_alc_friend4"
+        ],
+        "rating": [
+            "rating_nonalc_react", 
+            "rating_alc_react",
+            "rating_alc_mindful",
+            "rating_alc_friend1",
+            "rating_alc_friend2",
+            "rating_alc_friend3",
+            "rating_alc_friend4"
+        ]
+      },
+      "melt_event": {
+        "event": "stim"
+      },
+      "exclude_event": ["fixation"]
+    }
+  }
+}
