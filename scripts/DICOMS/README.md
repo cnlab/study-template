@@ -1,5 +1,5 @@
 This directory contains scripts to move the DICOMS to the server using flywheel.
 
-To get started, copy the following file from the `upenn-flywheel` repo:
+`Flywheel_Data_Transfer_bbprime.ipynb` can be used to help figure out how to setup flywheel for your project
 
-`/data00/tools/upenn-flywheel/Flywheel_Data_Transfer_AHA.ipynb`
+`Flywheel_data_transfer_loop.ipynb` can be used once the correct parameters are identified to loop over participants
